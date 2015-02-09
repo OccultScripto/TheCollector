@@ -19,7 +19,7 @@ for /F "tokens=4*" %%i in (collector.txt) do (
 
 del collector.txt
 echo "Legend: Key Index: 1   ==> OPEN WLAN" >> resultGathering.txt
-:: Firstly wanted to compute the result with regex in order to eliminate unused information.
+:: Firstly I wanted to compute the result with regex in order to eliminate unused information.
 
 
 :: Regex for selecting only the SSID ID 
